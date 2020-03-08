@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.socials>a {
+    
+    margin-right: 2.5px;
+}
+.socials{
+    margin-bottom: -6px;
+}
+
+.socials>a:hover {
+    cursor: pointer;
+}
+
+
+
+
+.textarea {
+    width: 619px;
+    height: 202px;
+    background-color: #d6564f;
+    border: 0;
+    border-radius: 5px;
+    resize: none;
+}
+
+.contacts {
+    display: flex;
+    color: #f0d8d9;
+    width: 1020px;
+    padding: 0 40px;
+    margin: 0 auto;
+    padding-bottom: 73px;
+}
+
+.contact-info h4 {
+    margin-bottom: 12px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 17.86px;
+}
+.contact-info img{
+    width: 11px;
+    height: 11px;
+    margin-right: 8px;
+}
+
+.contact-info span {
+    word-wrap: break-word;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21.56px;
+}
+.info-span{
+    display: block;
+    margin-bottom: 26px;
+}
+
+.contact-form {
+    margin-right: 20px;
+    width: 619px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form>input {
+    padding: 10px;
+    width: 619px;
+    height: 38px;
+    background-color: #d6564f;
+    border: 0;
+    border-radius: 5px;
+    margin-bottom: 16px;
+}
+
+.contact-form>input::placeholder
+{
+    padding: 5px;
+    color: #f48c8f;
+    font-family: "Lato";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21.56px;
+}
+
+.textarea::placeholder {
+    padding: 8px 15px;
+    color: #f48c8f;
+    font-family: "Lato";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21.56px;
+}
+
+
+.quote-wrapper {
+    background-color: #f06c64;
+    width: 100%;
+
+}
+
+.quote {
+    margin: 0 auto;
+    width: 1020px;
+    padding: 67px 40px 43px;
+    color: #f0d8d9;
+}
+
+.footer-wrapper {
+    background-color: #2d303a;
+    width: 100%;
+}
+
+.footer {
+    height: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1020px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.quote-info {
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.quote-header {
+    margin-bottom: 29px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 17.86px;
+}
