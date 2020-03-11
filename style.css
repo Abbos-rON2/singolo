@@ -94,7 +94,7 @@
 .phone {
     z-index: 100;
     display: inline-block;
-    background-image: url('assets/img/phone-model.png');
+    background-image: url(./assets/img/phone-model.png);
     width: 215px;
     height: 458px;
     background-repeat: no-repeat no-repeat;
@@ -108,7 +108,7 @@
     position: absolute;
     width: 250px;
     height: 480px;
-    background-image: url(/assets/img/shadow.png);
+    background-image: url(./assets/img/shadow.png);
     background-repeat: no-repeat no-repeat;
 }
 .slide::after {
@@ -119,7 +119,7 @@
     right: 112px;
     width: 484px;
     height: 250px;
-    background-image: url(/assets/img/shadow-2.png);
+    background-image: url(./assets/img/shadow-2.png);
     background-repeat: no-repeat no-repeat;
 }
 
@@ -221,7 +221,7 @@
     width: 16px;
     height: 27px;
     border: 0;
-    background-image: url(/assets/img/prev.png);
+    background-image: url(./assets/img/prev.png);
     background-color: rgba(255,255,255,0);
     position: absolute;
     top: 281px;
