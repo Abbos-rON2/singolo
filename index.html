@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="style.css">
     <title>Singolo</title>
 </head>
@@ -12,7 +13,7 @@
         <header class="header">
             <h1 class="logo">SINGOLO<span>*</span></h1>
             <ul class="nav">
-                <li><a href="#" class="active">home</a></li>
+                <li><a href="#services" class="active">home</a></li>
                 <li><a href="#">services</a></li>
                 <li><a href="#">portfolio</a></li>
                 <li><a href="#">about</a></li>
@@ -23,16 +24,15 @@
     <div class="slider-wrapper">
         <div class="slider">
             <div class="slide">
-                <button class="slide-button prev"></button>
-                <div class="vertical phone"><img src="./assets/img/vertical.png" alt=""></div>
-                <div class="horizontal phone"><img src="./assets/img/horizontal.png" alt=""></div>
-                <button class="slide-button next"></button>
+                <img src="./assets/img/singolo-slide1.jpg" alt="">
             </div>
-
+            <div class="slide">
+                <img src="./assets/img/singolo-slide2.jpg" alt="">
+            </div>
         </div>
     </div>
     <div class="services-wrapper">
-        <div class="services">
+        <div class="services" id="services">
             <h3>Our Services</h3>
             <span class="services-info">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</span>
         <div class="services-blocks">
@@ -193,5 +193,9 @@
             </div>
         </footer>
     </div>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
